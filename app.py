@@ -5,7 +5,7 @@ import io
 st.set_page_config(page_title="Image Filtering App", layout="centered")
 
 st.title("🖼 Image Filtering App")
-st.write("Upload an image and apply different filters using Streamlit + Python")
+st.write("Apply different filter using Image Filtering App")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
